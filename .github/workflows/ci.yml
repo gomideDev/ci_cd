@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - develop
-      - master
+      - main
   pull-request:
     branches:
       - develop
-      - master
+      - main
 
 jobs:
   flutter_test:
