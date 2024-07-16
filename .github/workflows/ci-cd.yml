@@ -44,6 +44,8 @@ jobs:
       - run: flutter build appbundle
       - name: Upload appbundle
         uses: actions/upload-artifact@v2.1.4
+      - name: Export
+        run: export
         with:
           name: appbundle
           path: build/app/outputs/bundle/release/app-release.aab
